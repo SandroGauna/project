@@ -1,0 +1,48 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_tag
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: project_tag
+#: model:ir.model.fields,field_description:project_tag.field_project_project__display_name
+msgid "Display Name"
+msgstr "Nome para Mostrar"
+
+#. module: project_tag
+#: model:ir.model.fields,field_description:project_tag.field_project_project__id
+msgid "ID"
+msgstr "ID"
+
+#. module: project_tag
+#: model:ir.model.fields,field_description:project_tag.field_project_project____last_update
+msgid "Last Modified on"
+msgstr "Última atualização em"
+
+#. module: project_tag
+#: model:ir.model,name:project_tag.model_project_project
+msgid "Project"
+msgstr "Projeto"
+
+#. module: project_tag
+#: model:ir.model.fields,field_description:project_tag.field_project_project__tag_ids
+msgid "Tags"
+msgstr "Marcadores"
+
+#. module: project_tag
+#: model_terms:ir.ui.view,arch_db:project_tag.project_tags_view_inherit_form
+msgid "Tags..."
+msgstr "Marcadores..."
