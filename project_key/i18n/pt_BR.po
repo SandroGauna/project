@@ -1,0 +1,85 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_key
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: project_key
+#: model:ir.model.fields,field_description:project_key.field_project_project__display_name
+#: model:ir.model.fields,field_description:project_key.field_project_task__display_name
+msgid "Display Name"
+msgstr "Nome a mostrar"
+
+#. module: project_key
+#: model:ir.model.fields,field_description:project_key.field_project_project__id
+#: model:ir.model.fields,field_description:project_key.field_project_task__id
+msgid "ID"
+msgstr "ID"
+
+#. module: project_key
+#: model:ir.model.fields,field_description:project_key.field_project_project__key
+msgid "Key"
+msgstr "Chave"
+
+#. module: project_key
+#: model:ir.model.fields,field_description:project_key.field_project_project__task_key_sequence_id
+#, fuzzy
+msgid "Key Sequence"
+msgstr "Sequência de teclas"
+
+#. module: project_key
+#: model:ir.model.fields,field_description:project_key.field_project_project____last_update
+#: model:ir.model.fields,field_description:project_key.field_project_task____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação Feita em"
+
+#. module: project_key
+#: model:ir.model,name:project_key.model_project_project
+msgid "Project"
+msgstr "Projeto"
+
+#. module: project_key
+#: model:ir.model.constraint,message:project_key.constraint_project_project_project_key_unique
+#, fuzzy
+msgid "Project key must be unique"
+msgstr "A chave do projeto deve ser única"
+
+#. module: project_key
+#: code:addons/project_key/models/project_project.py:0
+#, fuzzy, python-format
+msgid "Project task sequence for project"
+msgstr "Sequência de tarefas do projeto para projeto"
+
+#. module: project_key
+#: model:ir.model,name:project_key.model_project_task
+msgid "Task"
+msgstr "Tarefa"
+
+#. module: project_key
+#: model:ir.model.constraint,message:project_key.constraint_project_task_task_key_unique
+#, fuzzy
+msgid "Task key must be unique!"
+msgstr "A chave da tarefa deve ser única!"
+
+#. module: project_key
+#: model:ir.model.fields,field_description:project_key.field_project_task__url
+msgid "URL"
+msgstr "URL"
+
+#. module: project_key
+#: model:ir.model.fields,field_description:project_key.field_project_task__key
+msgid "key"
+msgstr "chave"
