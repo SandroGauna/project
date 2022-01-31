@@ -1,0 +1,176 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_milestone
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: project_milestone
+#: model:ir.ui.menu,name:project_milestone.milestone_configuration_menu
+#, fuzzy
+msgid "All Milestones"
+msgstr "Todos os Marcos"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__display_name
+#: model:ir.model.fields,field_description:project_milestone.field_project_project__display_name
+#: model:ir.model.fields,field_description:project_milestone.field_project_task__display_name
+msgid "Display Name"
+msgstr "Nome a mostrar"
+
+#. module: project_milestone
+#: model:ir.model.fields,help:project_milestone.field_project_project__use_milestones
+#: model:ir.model.fields,help:project_milestone.field_project_task__use_milestones
+#, fuzzy
+msgid "Does this project use milestones?"
+msgstr "Este projeto usa marcos?"
+
+#. module: project_milestone
+#: model_terms:ir.ui.view,arch_db:project_milestone.project_milestone_view_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__id
+#: model:ir.model.fields,field_description:project_milestone.field_project_project__id
+#: model:ir.model.fields,field_description:project_milestone.field_project_task__id
+msgid "ID"
+msgstr "ID"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__fold
+#, fuzzy
+msgid "Kanban Folded?"
+msgstr "Kanban dobrado?"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone____last_update
+#: model:ir.model.fields,field_description:project_milestone.field_project_project____last_update
+#: model:ir.model.fields,field_description:project_milestone.field_project_task____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação Feita em"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__write_uid
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__write_date
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__name
+#: model:ir.model.fields,field_description:project_milestone.field_project_task__milestone_id
+msgid "Milestone"
+msgstr "Evento"
+
+#. module: project_milestone
+#: model_terms:ir.ui.view,arch_db:project_milestone.project_milestone_view_form
+#, fuzzy
+msgid "Milestone Form"
+msgstr "Forma de Marco"
+
+#. module: project_milestone
+#: model_terms:ir.ui.view,arch_db:project_milestone.project_enhancements_milestone_inherit_search_view
+#, fuzzy
+msgid "Milestone Projects"
+msgstr "Projetos de Marcos"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_project__milestone_ids
+#: model_terms:ir.ui.view,arch_db:project_milestone.project_enhancement_milestone_view_inherit_form
+#: model_terms:ir.ui.view,arch_db:project_milestone.view_task_enhancement_search_milestone_form
+msgid "Milestones"
+msgstr "Etapas"
+
+#. module: project_milestone
+#: model_terms:ir.ui.view,arch_db:project_milestone.project_milestone_view_form
+msgid "Name"
+msgstr "Nome"
+
+#. module: project_milestone
+#: model:ir.model.fields,help:project_milestone.field_project_milestone__progress
+#, fuzzy
+msgid "Percentage of Completed Tasks vs Incomplete Tasks."
+msgstr "Porcentagem de Tarefas Concluídas versus Tarefas Incompletas."
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__progress
+msgid "Progress"
+msgstr "Progresso"
+
+#. module: project_milestone
+#: model:ir.model,name:project_milestone.model_project_project
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__project_id
+#: model_terms:ir.ui.view,arch_db:project_milestone.project_milestone_view_search
+msgid "Project"
+msgstr "Projeto"
+
+#. module: project_milestone
+#: model:ir.model,name:project_milestone.model_project_milestone
+#, fuzzy
+msgid "Project Milestone"
+msgstr "Marco do Projeto"
+
+#. module: project_milestone
+#: model:ir.actions.act_window,name:project_milestone.project_milestone_action
+#, fuzzy
+msgid "Project Milestones"
+msgstr "Marcos do Projeto"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__project_task_ids
+msgid "Project Tasks"
+msgstr "Tarefas do projeto"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__sequence
+msgid "Sequence"
+msgstr "Sequência"
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_milestone__target_date
+msgid "Target Date"
+msgstr "Data desejada"
+
+#. module: project_milestone
+#: model:ir.model,name:project_milestone.model_project_task
+msgid "Task"
+msgstr "Tarefa"
+
+#. module: project_milestone
+#: model:ir.model.fields,help:project_milestone.field_project_milestone__target_date
+#, fuzzy
+msgid "The date when the Milestone should be complete."
+msgstr "A data em que o Marco deve estar completo."
+
+#. module: project_milestone
+#: model:ir.model.fields,field_description:project_milestone.field_project_project__use_milestones
+#: model:ir.model.fields,field_description:project_milestone.field_project_task__use_milestones
+#, fuzzy
+msgid "Use Milestones"
+msgstr "Use Marcos"
