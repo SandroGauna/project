@@ -1,4 +1,5 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/140/14.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-project-140)
+
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/project&target_branch=14.0)
 [![Build Status](https://travis-ci.com/OCA/project.svg?branch=14.0)](https://travis-ci.com/OCA/project)
 [![codecov](https://codecov.io/gh/OCA/project/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/project)
 [![Translation Status](https://translation.odoo-community.org/widgets/project-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/project-14-0/?utm_source=widget)
@@ -22,6 +23,7 @@ addon | version | maintainers | summary
 [project_category](project_category/) | 14.0.1.0.0 |  | Project Types
 [project_deadline](project_deadline/) | 14.0.1.0.0 |  | Start date and deadline of projects.
 [project_duplicate_subtask](project_duplicate_subtask/) | 14.0.1.0.0 |  | The module adds an action to duplicate tasks with the child subtasks
+[project_hr](project_hr/) | 14.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Link HR with project
 [project_key](project_key/) | 14.0.1.0.1 |  | Module decorates projects and tasks with Project Key
 [project_list](project_list/) | 14.0.1.0.0 |  | Projects list view
 [project_milestone](project_milestone/) | 14.0.1.0.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Project Milestones
@@ -40,6 +42,7 @@ addon | version | maintainers | summary
 [project_task_material](project_task_material/) | 14.0.1.0.0 |  | Record products spent in a Task
 [project_task_pull_request](project_task_pull_request/) | 14.0.1.0.0 |  | Adds a field for a PR URI to project tasks
 [project_template](project_template/) | 14.0.1.1.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Project Templates
+[project_template_milestone](project_template_milestone/) | 14.0.1.0.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds function to copy of milestones when creating a project from template
 [project_timeline](project_timeline/) | 14.0.1.4.0 |  | Timeline view for projects
 [project_timeline_hr_timesheet](project_timeline_hr_timesheet/) | 14.0.1.0.0 |  | Shows the progress of tasks on the timeline view.
 [project_timeline_task_dependency](project_timeline_task_dependency/) | 14.0.1.0.0 |  | Render arrows between dependencies.
@@ -53,12 +56,11 @@ addon | version | maintainers | summary
 
 This repository is licensed under [AGPL-3.0](LICENSE).
 
-However, each module can have a totally different license, as long as they adhere to OCA
+However, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)
 policy. Consult each module's `__manifest__.py` file, which contains a `license` key
 that explains its license.
 
 ----
-
 OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
 organization whose mission is to support the collaborative development of Odoo features
 and promote its widespread use.
